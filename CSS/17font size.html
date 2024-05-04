@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+
+<h1 style="font-size:10vw;">Responsive Text</h1>
+
+<p style="font-size:5vw;">Resize the browser window to see how the text size scales.</p>
+
+<p style="font-size:5vw;">Use the "vw" unit when sizing the text. 10vw will set the size to 10% of the viewport width.</p>
+
+<p>Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.</p>
+
+
+<style>
+    h1 {
+      font-size: 40px;
+    }
+    
+    h2 {
+      font-size: 30px;
+    }
+    
+    p {
+      font-size: 14px;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+    </body>
+    <head>
+        <style>
+        h1 {
+          font-size: 2.5em; /* 40px/16=2.5em */
+        }
+        
+        h2 {
+          font-size: 1.875em; /* 30px/16=1.875em */
+         }
+        
+        p {
+          font-size: 0.875em; /* 14px/16=0.875em */
+        }
+        </style>
+        </head>
+        <body>
+        
+        <h1>This is heading 1</h1>
+        <h2>This is heading 2</h2>
+        <p>This is a paragraph.</p>
+        <p>Specifying the font-size in em allows all major browsers to resize the text.
+        Unfortunately, there is still a problem with older versions of IE. When resizing the text, it becomes larger/smaller than it should.</p>
+        
+    
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        <style>
+        body {
+          font-family: "Sofia", sans-serif;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <h1>Sofia Font</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>123456790</p>
+        
+        </body>
+
+        <head>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+            <style>
+            body {
+              font-family: "Trirong", serif;
+            }
+            </style>
+            </head>
+            <body>
+            
+            <h1>Trirong Font</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>123456790</p>
+            
+            </body>
+
+            <head>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+                <style>
+                body {
+                  font-family: "Audiowide", sans-serif;
+                }
+                </style>
+                </head>
+                <body>
+                
+                <h1>Audiowide Font</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>123456790</p>
+                
+                </body>
+
+                <head>
+                    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+                    <style>
+                    body {
+                      font-family: "Sofia", sans-serif;
+                      font-size: 30px;
+                    }
+                    </style>
+                    </head>
+                    <body>
+                    
+                    <h1 class="font-effect-fire">Sofia on Fire</h1>
+                    <p class="font-effect-fire">Lorem ipsum dolor sit amet.</p>
+                    <p class="font-effect-fire">123456790</p>
+                    
+                    </body>
+
+               
+                    <head>
+                        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+                        <style>
+                        body {
+                          font-family: "Sofia", sans-serif;
+                          font-size: 30px;
+                        }
+                        </style>
+                        </head>
+                        <body>
+                        
+                        <h1 class="font-effect-neon">Neon Effect</h1>
+                        <h1 class="font-effect-outline">Outline Effect</h1>
+                        <h1 class="font-effect-emboss">Emboss Effect</h1>
+                        <h1 class="font-effect-shadow-multiple">Multiple Shadow Effect</h1>
+                        
+                        </body>
+</body>
+</html>
+
