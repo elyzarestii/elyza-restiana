@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript String</h1>
+<h2>The charAt() Method</h2>
+
+<p>The charAt() method returns the character at a given position in a string:</p>
+
+<p id="demo"></p>
+
+<script>
+var text = "HELLO WORLD";
+document.getElementById("demo").innerHTML = text.charAt(0);
+</script>
+
+</body>
+<p id="demo"></p>
+
+<script>
+const name = "W3Schools";
+let letter = name[2];
+
+document.getElementById("demo").innerHTML = letter;
+</script>
+<p id="demo"></p>
+
+<script>
+let str = "Apple, Banana, Kiwi";
+document.getElementById("demo").innerHTML = str.substr(7,6);
+</script>
+<p id="demo"></p>
+
+<script>
+let text = "a,b,c,d,e,f";
+const myArray = text.split(",");
+document.getElementById("demo").innerHTML = myArray[0];
+</script>
+</html>
